@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Birthday</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <canvas id="stars"></canvas>
+  <div id="balloons"></div>
+  <canvas id="confetti"></canvas>
+
+  <main>
+    <h1 class="title">Happy Birthday to you</h1>
+    <h2 class="name" id="name">Bryan</h2>
+
+    <div class="cake" id="cake" role="button" aria-label="Souffler la bougie">
+      <div class="glow" id="glow"></div>
+      <div class="candle">
+        <div class="flame" id="flame"></div>
+        <span class="smoke"></span>
+      </div>
+      <div class="tier t1"><span class="cherry"></span></div>
+      <div class="tier t2"></div>
+      <div class="tier t3"></div>
+      <div class="plate"></div>
+    </div>
+
+    <p class="hint" id="hint">Fais un vœu, puis souffle la bougie…</p>
+
+    <div class="actions">
+      <button class="btn primary" id="blowBtn">🕯️ Souffler la bougie</button>
+      <button class="btn ghost" id="musicBtn">🎵 Musique</button>
+    </div>
+
+    <div class="card"><p id="message">Soit toujours heureux Tête en l'air🎊🥹 Que ta journée ne soit remplie que du sourire et de bons moments🎉😊BISOUS😙</p></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+<script src="index.js"></script>
